@@ -60,7 +60,7 @@ async def play(c: Client, m: Message):
         [
             [
                 InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
-                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}")
             ]
         ]
     )
@@ -275,7 +275,7 @@ async def stream(c: Client, m: Message):
         [
             [
                 InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
-                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}")
             ]
         ]
     )
