@@ -28,8 +28,8 @@ async def ytsearch(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
-                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
+                InlineKeyboardButton("❤️ Qᴜᴇᴇɴ", url=f"https://t.me/Candy_626"),
+                    InlineKeyboardButton("👑 ᴋɪɴɢ", url=f"https://t.me/Itz_Venom_xD"),
                 ],
                 [
                     InlineKeyboardButton(
