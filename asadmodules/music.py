@@ -59,8 +59,8 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
@@ -274,8 +274,8 @@ async def stream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
