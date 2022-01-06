@@ -7,9 +7,9 @@
         "telegram bot",
         "video stream"
     ],
-    "website": "https://t.me/Dr_Asad_Ali",
-    "repository": "https://github.com/jankarikiduniya/Dr-Music-Video-Streaming",
-    "success_url": "https://t.me/Give_Me_Heart",
+    "website": "https://t.me/Itz_Venom_xD",
+    "repository": "https://github.com/AbhumanyuXMusic/OpMusicBot",
+    "success_url": "https://t.me/Candy_626",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
