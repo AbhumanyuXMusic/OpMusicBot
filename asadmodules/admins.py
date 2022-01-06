@@ -73,9 +73,9 @@ async def skip(client, m: Message):
         if op == 0:
             await m.reply("❌ **ᴀᴛ [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ɴᴏᴛʜɪɴɢ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ**")
         elif op == 1:
-            await m.reply("✅ __Qᴜᴇᴜᴇs__ **ɪs ᴇᴍᴘᴛʏ.**\n\n**• ғʀᴏᴍ [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
+            await m.reply("✅ __Qᴜᴇᴜᴇs__ **ɪs ᴇᴍᴘᴛʏ.**\n\n**• ғʀᴏᴍ [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
         elif op == 2:
-            await m.reply("🗑️ **Cʟᴇᴀʀɪɴɢ ᴛʜᴇ Qᴜᴇᴜᴇs**\n\n**ғʀᴏᴍ [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
+            await m.reply("🗑️ **Cʟᴇᴀʀɪɴɢ ᴛʜᴇ Qᴜᴇᴜᴇs**\n\n**ғʀᴏᴍ [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
