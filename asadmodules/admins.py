@@ -40,14 +40,14 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(f"""**━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ʙᴏᴛ : [ʀᴇʟᴏᴀᴅᴇᴅ](t.me/{BOT_USERNAME})
 ┣★ ᴀᴅᴍɪɴ : ᴀᴛ [{BOT_NAME}](t.me/{GROUP_SUPPORT}) ʀᴇғʀᴇsʜᴇᴅ
 ┣★ sᴜᴘᴘᴏʀᴛ : [ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs](t.me/BOT_UPDATE)
 ┗━━━━━━━━━━━━━━━━━┛
-🌸 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇɴ [ʜᴇᴀʀᴛ](t.me/{MY_HEART}) ᴍᴇ
+🌸 ᴍʏ ʜᴇᴀʀᴛ [Cᴀɴᴅʏ](t.me/{MY_HEART})
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ » ǫᴜᴇsᴛɪᴏɴ
 ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{REPO_OWNER})
 ━━━━━━━━━━━━━━━━━━━**""",
@@ -61,8 +61,8 @@ async def skip(client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
@@ -71,7 +71,7 @@ async def skip(client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await m.reply("❌ **ᴀᴛ [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ɴᴏᴛʜɪɴɢ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ**")
+            await m.reply("❌ **ᴀᴛ [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ɴᴏᴛʜɪɴɢ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ**")
         elif op == 1:
             await m.reply("✅ __Qᴜᴇᴜᴇs__ **ɪs ᴇᴍᴘᴛʏ.**\n\n**• ғʀᴏᴍ [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
         elif op == 2:
@@ -111,24 +111,24 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("✅ **ғʀᴏᴍ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **sᴛʀᴇᴀᴍ ʜᴀs ᴇɴᴅᴇᴅ**")
+            await m.reply("✅ **ғʀᴏᴍ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **sᴛʀᴇᴀᴍ ʜᴀs ᴇɴᴅᴇᴅ**")
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
         except Exception as e:
             await m.reply(f"🚫 **Eʀʀᴏʀr:**\n\n`{e}`")
     else:
-        await m.reply("❌ **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
+        await m.reply("❌ **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
@@ -149,7 +149,7 @@ async def pause(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **Eʀʀᴏʀ:**\n\n`{e}`")
     else:
-        await m.reply("❌ **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
+        await m.reply("❌ **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
 
 
 @Client.on_message(
@@ -162,25 +162,25 @@ async def resume(client, m: Message):
         try:
             await call_py.resume_stream(chat_id)
             await m.reply(
-                "▶️ **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **Tʀᴀᴄᴋ ɪs ʀᴇsᴜᴍᴇᴅ.**\n\n• **To pause the stream, use the**\n» /pause command."
+                "▶️ **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **Tʀᴀᴄᴋ ɪs ʀᴇsᴜᴍᴇᴅ.**\n\n• **To pause the stream, use the**\n» /pause command."
             )
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
         except Exception as e:
             await m.reply(f"🚫 **Error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
+        await m.reply("❌ **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
@@ -196,25 +196,25 @@ async def mute(client, m: Message):
         try:
             await call_py.mute_stream(chat_id)
             await m.reply(
-                "🔇 **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ᴜsᴇʀʙᴏᴛ ɪs ᴍᴜᴛᴇᴅ.**\n\n• **Tᴏ ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀʙᴏᴛ, ᴜsᴇ ᴛʜᴇ**\n» /unmute **ᴄᴏᴍᴍᴀɴᴅ**."
+                "🔇 **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ᴜsᴇʀʙᴏᴛ ɪs ᴍᴜᴛᴇᴅ.**\n\n• **Tᴏ ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀʙᴏᴛ, ᴜsᴇ ᴛʜᴇ**\n» /unmute **ᴄᴏᴍᴍᴀɴᴅ**."
             )
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
         except Exception as e:
             await m.reply(f"🚫 **Eʀʀᴏʀ:**\n\n`{e}`")
     else:
-        await m.reply("❌ **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
+        await m.reply("❌ **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
@@ -230,25 +230,25 @@ async def unmute(client, m: Message):
         try:
             await call_py.unmute_stream(chat_id)
             await m.reply(
-                "🔊 **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ᴜsᴇʀʙᴏᴛ ɪs ᴜɴᴍᴜᴛᴇᴅ.**\n\n• **ᴛᴏ ᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀʙᴏᴛ ᴜsᴇ ᴛʜᴀ**\n» /mute **ᴄᴏᴍᴍᴀɴᴅ**."
+                "🔊 **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ᴜsᴇʀʙᴏᴛ ɪs ᴜɴᴍᴜᴛᴇᴅ.**\n\n• **ᴛᴏ ᴍᴜᴛᴇ ᴛʜᴇ ᴜsᴇʀʙᴏᴛ ᴜsᴇ ᴛʜᴀ**\n» /mute **ᴄᴏᴍᴍᴀɴᴅ**."
             )
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
         except Exception as e:
             await m.reply(f"🚫 **Eʀʀᴏʀ:**\n\n`{e}`")
     else:
-        await m.reply("❌ **ᴀᴛ** [ʀᴏᴄᴋs sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
+        await m.reply("❌ **ᴀᴛ** [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/{GROUP_SUPPORT}) **ɴᴏᴛʜɪɴɢ ɪs sᴛʀᴇᴀᴍɪɴɢ**")
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ ❤️", url=f"https://t.me/Give_Me_Heart"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("•𝐂ʜᴀɴɴᴇʟ", url=f"https://t.me/Pubglovers_shayri_lovers"),
+                InlineKeyboardButton("•𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ]
         ]
     )
