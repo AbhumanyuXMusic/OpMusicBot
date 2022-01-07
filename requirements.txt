@@ -14,8 +14,8 @@ aiohttp
 requests
 heroku3
 motor
-yt-dlp
+
 psutil
 future
 wget
-https://github.com/AbhumanyuXMusic/youtube-dl
+git+https://github.com/AbhumanyuXMusic/yt-dl@master
